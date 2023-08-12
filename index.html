@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="index.css">
+        
+    <!-- ===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+     <title>Responsive Navigation Menu Bar</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-bar">
+            
+            <span class="logo navLogo"><a href="#">Chaudhary</a></span>
+
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#">Chaudhary</a></span>
+                    <i class='bx bx-x siderbarClose'></i>
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="#home" class="page-links">Home</a></li>
+                    <li><a href="#about" class="page-links">About</a></li>
+                    <li><a href="#projects" class="page-links">Projects</a></li>
+                    <li><a href="#services" class="page-links">Services</a></li>
+                    <li><a href="#contact" class="page-links">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="darkLight-searchBox">
+                <div class="dark-light">
+                    <i class='bx bx-moon moon'></i>
+                    <i class='bx bx-sun sun'></i>
+                </div>
+
+                <div class="searchBox">
+                   <div class="searchToggle">
+                    <i class='bx bx-x cancel'></i>
+                    <i class='bx bx-search search'></i>
+                   </div>
+
+                    <div class="search-field">
+                        <input type="text" placeholder="Search...">
+                        <i class='bx bx-search'></i>
+                    </div>
+                </div>
+            </div>
+            <i class='bx bx-menu sidebarOpen' ></i>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home">Home</section>
+        <section id="about">About</section>
+        <section id="projects">Projects</section>
+        <section id="services">Services</section>
+        <section id="contact">Contact</section>
+    </main>
+
+<script src="index.js"></script>
+
+</body>
+</html>
