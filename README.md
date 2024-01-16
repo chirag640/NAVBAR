@@ -33,7 +33,7 @@ The navigation menu bar is designed to be responsive, making it suitable for var
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/responsive-navigation-menu-bar.git
+    git clone https://github.com/chirag640/responsive-navigation-menu-bar.git
     ```
 
 2. Open the `index.html` file in a web browser to view the navigation menu bar.
